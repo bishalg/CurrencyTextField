@@ -12,6 +12,13 @@
 		056772A3230F981A00568DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056772A1230F981A00568DCD /* Main.storyboard */; };
 		056772A5230F981B00568DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056772A4230F981B00568DCD /* Assets.xcassets */; };
 		056772A8230F981B00568DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056772A6230F981B00568DCD /* LaunchScreen.storyboard */; };
+		056772B0230F98F100568DCD /* CurrencyNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056772AF230F98F100568DCD /* CurrencyNumberView.swift */; };
+		056772B2230F990900568DCD /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056772B1230F990900568DCD /* NSAttributedString+Extension.swift */; };
+		056772B4230F992900568DCD /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056772B3230F992900568DCD /* UITextField+Extension.swift */; };
+		056772B6230F994400568DCD /* UILabel+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056772B5230F994400568DCD /* UILabel+Style.swift */; };
+		056772B8230F99DF00568DCD /* UIColor+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056772B7230F99DF00568DCD /* UIColor+Style.swift */; };
+		056772BA230FA38400568DCD /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056772B9230FA38400568DCD /* String+Extension.swift */; };
+		056772BC230FCB2000568DCD /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056772BB230FCB2000568DCD /* CurrencyTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		056772A4230F981B00568DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		056772A7230F981B00568DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		056772A9230F981B00568DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		056772AF230F98F100568DCD /* CurrencyNumberView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyNumberView.swift; sourceTree = "<group>"; };
+		056772B1230F990900568DCD /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
+		056772B3230F992900568DCD /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		056772B5230F994400568DCD /* UILabel+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Style.swift"; sourceTree = "<group>"; };
+		056772B7230F99DF00568DCD /* UIColor+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Style.swift"; sourceTree = "<group>"; };
+		056772B9230FA38400568DCD /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		056772BB230FCB2000568DCD /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,13 @@
 		0567729C230F981A00568DCD /* Currency TextField */ = {
 			isa = PBXGroup;
 			children = (
+				056772BB230FCB2000568DCD /* CurrencyTextField.swift */,
+				056772B9230FA38400568DCD /* String+Extension.swift */,
+				056772B7230F99DF00568DCD /* UIColor+Style.swift */,
+				056772B5230F994400568DCD /* UILabel+Style.swift */,
+				056772B3230F992900568DCD /* UITextField+Extension.swift */,
+				056772B1230F990900568DCD /* NSAttributedString+Extension.swift */,
+				056772AF230F98F100568DCD /* CurrencyNumberView.swift */,
 				0567729D230F981A00568DCD /* AppDelegate.swift */,
 				0567729F230F981A00568DCD /* ViewController.swift */,
 				056772A1230F981A00568DCD /* Main.storyboard */,
@@ -135,7 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056772BA230FA38400568DCD /* String+Extension.swift in Sources */,
+				056772B4230F992900568DCD /* UITextField+Extension.swift in Sources */,
 				056772A0230F981A00568DCD /* ViewController.swift in Sources */,
+				056772B8230F99DF00568DCD /* UIColor+Style.swift in Sources */,
+				056772B6230F994400568DCD /* UILabel+Style.swift in Sources */,
+				056772B2230F990900568DCD /* NSAttributedString+Extension.swift in Sources */,
+				056772BC230FCB2000568DCD /* CurrencyTextField.swift in Sources */,
+				056772B0230F98F100568DCD /* CurrencyNumberView.swift in Sources */,
 				0567729E230F981A00568DCD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
